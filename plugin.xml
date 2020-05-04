@@ -54,6 +54,9 @@
         <config-file parent="NSMotionUsageDescription" target="*-Info.plist" mode="merge">
             <string>O uso do acelerometro aumenta a eficiencia da bateria ao alternar de maneira inteligente o rastreamento de localizacao somente quando o dispositivo e detectado como em movimento.</string>
         </config-file>
+        <config-file parent="NSLocationAlwaysUsageDescription" target="*-Info.plist" mode="merge">
+            <string>>O rastreamento de localizacao em segundo plano e utilizado para registrar o trajeto de seu pedal.</string>
+        </config-file>
         <!-- /background-geolocation -->
         
         
