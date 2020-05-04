@@ -46,26 +46,26 @@
         
         <!-- background-geolocation -->
         <config-file parent="NSLocationAlwaysAndWhenInUseUsageDescription" target="*-Info.plist" mode="merge">
-            <string>O app utiliza ratreamento de localização em segundo plano para gravar a atividade, mesmo que o app não esteja visível na tela. Sempre é necessário usar o rastreamento de localização em segundo plano (Always is necessary).</string>
+            <string>O app utiliza ratreamento de localizacao em segundo plano para gravar a atividade, mesmo que o app nao esteja visivel na tela. Sempre e necessario usar o rastreamento de localizacao em segundo plano (Always is necessary).</string>
         </config-file>
         <config-file parent="NSLocationWhenInUseUsageDescription" target="*-Info.plist" mode="merge">
-            <string>O rastreamento de localização em segundo plano é utilizado para registrar o trajeto de seu pedal.</string>
+            <string>O rastreamento de localizacao em segundo plano e utilizado para registrar o trajeto de seu pedal.</string>
         </config-file>
         <config-file parent="NSMotionUsageDescription" target="*-Info.plist" mode="merge">
-            <string>O uso do acelerômetro aumenta a eficiência da bateria ao alternar de maneira inteligente o rastreamento de localização somente quando o dispositivo é detectado como em movimento.</string>
+            <string>O uso do acelerometro aumenta a eficiencia da bateria ao alternar de maneira inteligente o rastreamento de localizacao somente quando o dispositivo e detectado como em movimento.</string>
         </config-file>
         <!-- /background-geolocation -->
         
         
         <!-- camera -->
         <config-file parent="NSCameraUsageDescription" target="*-Info.plist" mode="merge">
-            <string>A câmera é utilizada para registrar imagens dos seus pedais.</string>
+            <string>A camera e utilizada para registrar imagens dos seus pedais.</string>
         </config-file>
         <config-file parent="NSPhotoLibraryAddUsageDescription" target="*-Info.plist" mode="merge">
-            <string>O acesso à galeria é utilizado para adicionar imagens dos pedais.</string>
+            <string>O acesso a galeria e utilizado para adicionar imagens dos pedais.</string>
         </config-file>
         <config-file parent="NSPhotoLibraryUsageDescription" target="*-Info.plist" mode="merge">
-            <string>O acesso à galeria de fotos é utilizado para adicionar e carregar imagens dos pedais.</string>
+            <string>O acesso a galeria de fotos e utilizado para adicionar e carregar imagens dos pedais.</string>
         </config-file>
         <!-- /camera -->
         
